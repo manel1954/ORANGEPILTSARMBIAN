@@ -23,4 +23,4 @@ sed -i "7c Icon=/home/orangepi/ORANGEPI/ICONO_DMRPLUS.png" /home/orangepi/Deskto
 sed -i "10c Name[es_ES]=Abrir DMR+" /home/orangepi/Desktop/DMRPLUS.desktop
 
 sed -i "6c MMDVMPLUS=OFF" /home/orangepi/status.ini
-mate-terminal --foreground-color="#FF0000" --background-color="#000000" --font="Monospace 12"
+#mate-terminal --foreground-color="#FF0000" --background-color="#000000" --font="Monospace 12"
