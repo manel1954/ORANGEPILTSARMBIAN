@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sed -i "6c Exec=xterm -geometry 85x13+1250+830 -bg brown -fg green -fa 'roboto' -fs 9x -T SOLODSTAR -e sh ejecutar_solodstar.sh" /home/orangepi/Desktop/AbrirsoloDstar.desktop
+sed -i "6c Exec=xterm -geometry 85x13+1280+830 -bg brown -fg green -fa 'roboto' -fs 9x -T SOLODSTAR -e sh ejecutar_solodstar.sh" /home/orangepi/Desktop/AbrirsoloDstar.desktop
 sed -i "7c Icon=/home/orangepi/ORANGEPI/SOLO_D-STAR.png" /home/orangepi/Desktop/AbrirsoloDstar.desktop
 sed -i "11c Name[es_ES]=Abrir solo D-STAR" /home/orangepi/Desktop/AbrirsoloDstar.desktop
 
