@@ -4,7 +4,7 @@ Type=Application
 Name=Abrir bm
 Name[es_ES]=Abrir bm
 Comment=
-Exec=sh -c "cd /home/orangepi/ORANGEPI/;sleep 10;mate-terminal --geometry 104x16+1151+880 --title=BRANDMEISTER -x sh ejecutar_bm_05.sh"
+Exec=sh -c "cd /home/orangepi/ORANGEPI/;sleep 10;xterm -geometry 85x13+655+830 -bg brown -fg green -fa 'roboto' -fs 9x -T BRANDMEISTER -e sh ejecutar_bm_05.sh"
 Icon=/home/orangepi/ORANGEPI/DMR.png
 Terminal=false
 StartupNotify=false
