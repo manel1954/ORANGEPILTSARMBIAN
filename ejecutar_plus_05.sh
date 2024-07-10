@@ -18,7 +18,7 @@ echo "\33[1;37m"
 udo killall MMDVMPLUS
 sudo ./MMDVMPLUS MMDVMPLUS.ini
  
-sed -i "6c Exec=mate-terminal --geometry 105x12+22+830 --foreground-color="#FF0000" --title=DMR+ -x sh ejecutar_plus_05.sh" /home/orangepi/Desktop/DMRPLUS.desktop
+sed -i "6c Exec=mate-terminal --geometry 105x12+22+830 --foreground-color='#FF0000' --title=DMR+ -x sh ejecutar_plus_05.sh" /home/orangepi/Desktop/DMRPLUS.desktop
 sed -i "7c Icon=/home/orangepi/ORANGEPI/ICONO_DMRPLUS.png" /home/orangepi/Desktop/DMRPLUS.desktop
 sed -i "10c Name[es_ES]=Abrir DMR+" /home/orangepi/Desktop/DMRPLUS.desktop
 
