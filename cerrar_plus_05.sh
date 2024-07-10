@@ -3,7 +3,7 @@
 sudo killall MMDVMPLUS
 sudo killall qt_callsign_log
 
-sed -i "6c Exec=xterm -geometry 85x13+22+830 -bg black -fg green -fa 'roboto' -fs 9x -T DMR+ -e sh ejecutar_plus_05.sh" /home/orangepi/Desktop/DMRPLUS.desktop
+sed -i "6c Exec=xterm -geometry 85x13+24+830 -bg black -fg green -fa 'roboto' -fs 9x -T DMR+ -e sh ejecutar_plus_05.sh" /home/orangepi/Desktop/DMRPLUS.desktop
 sed -i "7c Icon=/home/orangepi/ORANGEPI/ICONO_DMRPLUS.png" /home/orangepi/Desktop/DMRPLUS.desktop
 sed -i "10c Name[es_ES]=Abrir DMR+" /home/orangepi/Desktop/DMRPLUS.desktop
 
