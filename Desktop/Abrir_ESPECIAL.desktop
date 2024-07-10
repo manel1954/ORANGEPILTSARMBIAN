@@ -3,7 +3,7 @@ Version=1.0
 Type=Application
 Name=Abrir Libre
 Comment=
-Exec=mate-terminal --geometry 104x16+777+880 --title=ESPECIAL -x sh ejecutar_especial.sh
+Exec=sh ejecutar_especial.sh
 Icon=/home/orangepi/ORANGEPI/ICONO_ESPECIAL_OFF.png
 Path=/home/orangepi/ORANGEPI
 Terminal=false
