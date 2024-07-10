@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Abrir Radio
+Comment=
+Exec=mate-terminal --geometry 104x16+777+880 --title=RADIO -x sh ejecutar_mmdvm_05.sh
+Icon=/home/orangepi/ORANGEPI/MMDVM.png
+Path=/home/orangepi/ORANGEPI
+Terminal=false
+StartupNotify=false

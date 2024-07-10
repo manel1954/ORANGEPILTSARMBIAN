@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Editar Svxlink
+Comment=
+Exec=./qt_editor_svxlink
+Icon=/home/orangepi/ORANGEPI/DMRPLUS_EDITOR.png
+Path=/home/orangepi/qt
+Terminal=false
+StartupNotify=false

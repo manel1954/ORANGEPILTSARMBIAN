@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Editar Dump1090
+Comment=
+Exec=./qt_editor_dump1090
+Icon=/home/orangepi/ORANGEPI/EDITAR_DUMP1090.png
+Path=/home/orangepi/qt
+Terminal=false
+StartupNotify=false
+Name[es_ES]=Editar Dump1090

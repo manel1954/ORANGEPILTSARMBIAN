@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=EditarDExtraBlueDV
+Comment=
+Exec=ls
+Icon=/home/orangepi/ORANGEPI/ICONO_TRANSPARENTE.png
+Path=/home/orangepi/ORANGEPI
+Terminal=false
+StartupNotify=false
+Name[es_ES]=.

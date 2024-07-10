@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=EditarDExtraircDDB
+Comment=
+Exec=/home/orangepi/qt/./qt_notas_version1
+Icon=/home/orangepi/ORANGEPI/ICONO_TRANSPARENTE.png
+Path=/home/orangepi/ORANGEPI
+Terminal=false
+StartupNotify=false
+Name[es_ES]=.

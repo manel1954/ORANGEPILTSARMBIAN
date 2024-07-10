@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Autoarranque
+Comment=
+Exec=sh ejecutar_autoarranque.sh
+Icon=/home/orangepi/ORANGEPI/ICONO_AUTOARRANQUE_OFF.png
+Terminal=false
+StartupNotify=false
+Name[es_ES]=Abrir Autoarranque
+Path=/home/orangepi/ORANGEPI

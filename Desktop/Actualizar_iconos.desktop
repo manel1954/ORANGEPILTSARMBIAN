@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Restaurar ICONOS
+Comment=
+Icon=/home/orangepi/ORANGEPI/ICONO_ORGANIZAR.png
+Path=/home/orangepi/ORANGEPI
+Terminal=false
+Name[es_ES]=Restaurar ICONOS
+StartupNotify=false
+Exec=mate-terminal --geometry 73x5+700+50 -x sh colocar_iconos.sh

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Editar DMRPlus
+Comment=
+Exec=./qt_editor_dmrplus
+Icon=/home/orangepi/ORANGEPI/DMRPLUS_EDITOR.png
+Path=/home/orangepi/qt
+Terminal=false
+StartupNotify=false
+Name[es_ES]=Editar DMR+

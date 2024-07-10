@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Md380tools
+Comment=
+Exec=./qt_reiniciar_imagen
+Icon=/home/orangepi/ORANGEPI/ICONO_REINICIAR.png
+Path=/home/orangepi/qt
+Terminal=false
+StartupNotify=false
+Name[es_ES]=Reiniciar IMAGEN

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Editar Radio
+Comment=
+Exec=./qt_editor_radio
+Icon=/home/orangepi/ORANGEPI/EDITAR_RADIO.png
+Path=/home/orangepi/qt
+Terminal=false
+StartupNotify=false

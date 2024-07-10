@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Editar solo FUSION
+Comment=
+Exec=./qt_editor_solofusion
+Icon=/home/orangepi/ORANGEPI/editar_bm.png
+Path=/home/orangepi/qt
+Terminal=false
+StartupNotify=false

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Comment=
+Exec=./qt_editor_ysf_fcs_ycs
+Icon=/home/orangepi/ORANGEPI/editar_C4FM.png
+Path=/home/orangepi/qt
+Terminal=false
+StartupNotify=false
+Name[es_ES]=Editar YSF

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=DMR Plus
+Comment=
+Exec=mate-terminal --geometry 104x16+22+880 --title=DMR+ -x sh ejecutar_plus_05.sh
+Icon=/home/orangepi/ORANGEPI/ICONO_DMRPLUS.png
+Terminal=false
+StartupNotify=false
+Name[es_ES]=Abrir DMR+
+Path=/home/orangepi/ORANGEPI

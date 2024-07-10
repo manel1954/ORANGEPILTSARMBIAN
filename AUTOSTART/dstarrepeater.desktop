@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Abrir D-STAR Repeater
+Name[es_ES]=Abrir D-STAR Repeater
+Comment=
+Exec=sh ejecutar_dstarrepeater_05.sh
+Icon=/home/orangepi/ORANGEPI/SOLO_DSTAR.png
+Terminal=false
+StartupNotify=false
+Path=/home/orangepi/ORANGEPI
+Hidden=false
+

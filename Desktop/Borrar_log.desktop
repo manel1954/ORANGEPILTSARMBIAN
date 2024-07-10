@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Borrar logs
+Comment=
+Exec=mate-terminal --geometry 74x18+696+50 --title=BORRAR_LOGS -x sh borrar_logs_06.sh
+Icon=/home/orangepi/ORANGEPI/papelera1.png
+Path=/home/orangepi/ORANGEPI
+Terminal=false
+StartupNotify=false

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=ActualizarYSF
+Comment=
+Exec=./qt_actualizar_ysf
+Icon=/home/orangepi/ORANGEPI/ACTUALIZAR_BD.png
+Path=/home/orangepi/qt
+Terminal=false
+StartupNotify=false
+Name[es_ES]=Actualizar YSF

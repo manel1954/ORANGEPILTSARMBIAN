@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Editar ESPECIAL
+Comment=
+Exec=./qt_editor_especial
+Icon=/home/orangepi/ORANGEPI/EDITAR_LIBRE.png
+Path=/home/orangepi/qt
+Terminal=false
+StartupNotify=false

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=AbrirsoloYSF
+Comment=
+Exec=sudo sh ejecutar_solofusion.sh
+Icon=/home/orangepi/ORANGEPI/SOLO_YSF.png
+Path=/home/orangepi/ORANGEPI
+Terminal=false
+StartupNotify=false
+Name[es_ES]=Abrir solo FUSION

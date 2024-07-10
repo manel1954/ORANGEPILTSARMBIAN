@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Editar solo D-STAR
+Comment=
+Exec=./qt_editor_solodstar
+Icon=/home/orangepi/ORANGEPI/SOLO_D-STAR.png
+Path=/home/orangepi/qt
+Terminal=false
+StartupNotify=false

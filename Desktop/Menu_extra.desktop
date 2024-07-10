@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=MENÚ EXTRA
+Comment=
+Icon=/home/orangepi/ORANGEPI/MENU.png
+Path=/home/orangepi/qt
+Terminal=false
+Name[es_ES]=MENÚ EXTRA
+StartupNotify=false
+Exec=./qt_menu_extra
+# Exec=mate-terminal --geometry 74x18+696+50 --title=MENU_EXTRA -x sh menu_extra_05.sh

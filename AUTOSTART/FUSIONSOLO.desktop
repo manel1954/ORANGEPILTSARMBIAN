@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Abrir fusionsolo
+Name[es_ES]=Abrir fusionsolo
+Comment=
+Exec=sh -c "cd /home/orangepi/ORANGEPI/;sleep 10;sudo sh ejecutar_solofusion.sh"
+Icon=/home/orangepi/ORANGEPI/SOLO_YSF.png
+Terminal=false
+StartupNotify=false
+Path=
+Hidden=false
+

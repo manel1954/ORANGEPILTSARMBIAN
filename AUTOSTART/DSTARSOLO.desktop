@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Abrir dstarsolo
+Name[es_ES]=Abrir dstarsolo
+Comment=
+Exec=sh -c "cd /home/orangepi/ORANGEPI/;sleep 10;mate-terminal --geometry 104x16+1151+880 --title=SOLODSTAR -x sh ejecutar_solodstar.sh"
+Icon=/home/orangepi/ORANGEPI/SOLO_DSTAR.png
+Terminal=false
+StartupNotify=false
+Path=
+Hidden=false

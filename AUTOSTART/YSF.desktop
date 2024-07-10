@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Abrir YSF
+Name[es_ES]=Abrir YSF
+Comment=
+Exec=sh -c "cd /home/orangepi/ORANGEPI/;sleep 10;mate-terminal --geometry 105x16+22+880 --title=SOLO_FUSION -x sh ejecutar_solofusion.sh"
+Icon=/home/orangepi/ORANGEPI/SOLO_YSF.png
+Terminal=false
+StartupNotify=false
+Path=/home/orangepi/ORANGEPI/
+Hidden=false
+

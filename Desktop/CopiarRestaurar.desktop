@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=CopiarRestaurar
+Comment=
+Exec=./qt_copiar_restaurar
+Icon=/home/orangepi/ORANGEPI/ACTUALIZA_BD.png
+Path=/home/orangepi/qt
+Terminal=false
+StartupNotify=false
+Name[es_ES]=Copiar Restaurar

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Editar YSF2DMR
+Comment=
+Icon=/home/orangepi/ORANGEPI/YSF2DMR_EDIT.png
+Path=/home/orangepi/qt
+Terminal=false
+Name[es_ES]=Editar YSF2DMR
+StartupNotify=false
+Exec=./qt_editor_ysf2dmr
