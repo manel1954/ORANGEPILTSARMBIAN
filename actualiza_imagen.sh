@@ -1,6 +1,6 @@
 #!/bin/bash	                               
                                           
-                        cd /home/orangepi/ORANGEPI3
+                        cd /home/orangepi/ORANGEPILTSARMBIAN
                         
                         git pull --force
 
