@@ -1,5 +1,5 @@
 #!/bin/bash	                               
-                        #sh /home/orangepi/ORANGEPI/ejecutar_ImagenActualizada.sh &                    
+                                          
                         cd /home/orangepi/ORANGEPI3
                         
                         git pull --force
@@ -10,13 +10,13 @@
 
                         mkdir /home/orangepi/ORANGEPI
                                                 
-                        cp -R /home/orangepi/ORANGEPI3/* /home/orangepi/ORANGEPI
-                        cp -R /home/orangepi/ORANGEPI3/AUTOSTART/* /home/orangepi/AUTOSTART                      
+                        cp -R /home/orangepi/ORANGEPILTSARMBIAN/* /home/orangepi/ORANGEPI
+                        cp -R /home/orangepi/ORANGEPILTSARMBIAN/AUTOSTART/* /home/orangepi/AUTOSTART                      
                         
                         sudo rm -R /home/orangepi/qt
 
                                       
-                        cp -R /home/orangepi/ORANGEPI3/qt/ /home/orangepi/
+                        cp -R /home/orangepi/ORANGEPILTSARMBIAN/qt/ /home/orangepi/
 
                         sudo chmod 777 -R /home/orangepi/ORANGEPI
                         
