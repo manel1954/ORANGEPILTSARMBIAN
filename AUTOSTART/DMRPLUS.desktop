@@ -4,10 +4,9 @@ Type=Application
 Name=Abrir DMR+
 Name[es_ES]=Abrir DMR+
 Comment=
-Exec=sh -c "cd /home/orangepi/ORANGEPI/;sleep 10;mate-terminal --geometry 105x16+22+880 --title=DMR+ -x sh ejecutar_plus_05.sh"
+Exec=sh -c "cd /home/orangepi/ORANGEPI/;sleep 10;xterm -geometry 86x13+24+830 -bg black -fg green -fa 'roboto' -fs 9x -T DMR+ -e sh ejecutar_plus_05.sh"
 Icon=/home/orangepi/ORANGEPI/ICONO_DMRPLUS.png
 Terminal=false
 StartupNotify=false
 Path=
 Hidden=false
-
