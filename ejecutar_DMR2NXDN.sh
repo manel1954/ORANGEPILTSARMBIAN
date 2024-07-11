@@ -8,10 +8,10 @@ sed -i "10c Name[es_ES]=Cerrar DMR2NXDN" /home/orangepi/Desktop/Abrir_DMR2NXDN.d
 #sed -i "14c NXDN2DMR=ON" /home/orangepi/status.ini
 
 cd /home/orangepi/DMR2NXDN
-xterm -geometry 86x6+1277+703 -bg black -fg yellow -fa 'roboto' -fs 9x -T DMR2NXDN -e ./DMR2NXDN DMR2NXDN.ini & 
+xterm -geometry 86x6+1277+703 -bg violet -fg black -fa 'roboto' -fs 9x -T DMR2NXDN -e ./DMR2NXDN DMR2NXDN.ini & 
 sleep 1
 cd /home/orangepi/MMDVMHost
-xterm -geometry 86x6+1277+830 -bg black -fg yellow -fa 'roboto' -fs 9x -T MMDVMDMR2NXDN -e ./MMDVMHost MMDVMDMR2NXDN.ini &
+xterm -geometry 86x6+1277+830 -bg violet -fg black -fa 'roboto' -fs 9x -T MMDVMDMR2NXDN -e ./MMDVMHost MMDVMDMR2NXDN.ini &
 sleep 1
 cd /home/orangepi/NXDNClients/NXDNGateway
-xterm -geometry 86x6+1277+987 -bg black -fg yellow -fa 'roboto' -fs 9x -T NXDNGateway -e ./NXDNGateway NXDNGateway.ini
+xterm -geometry 86x6+1277+987 -bg violet -fg black -fa 'roboto' -fs 9x -T NXDNGateway -e ./NXDNGateway NXDNGateway.ini
