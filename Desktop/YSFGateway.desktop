@@ -3,7 +3,7 @@ Version=1.0
 Type=Application
 Name=YSFGateway
 Comment=
-Exec=mate-terminal --geometry 104x16+1151+880 --title=YSF -x sh ejecutar_ysf_05.sh
+Exec=sh ejecutar_ysf_05.sh
 Icon=/home/orangepi/ORANGEPI/C4FM.png
 Path=/home/orangepi/ORANGEPI
 Terminal=false

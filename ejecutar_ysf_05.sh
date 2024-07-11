@@ -22,7 +22,5 @@ echo "*                 YSFGateway                              * "
 echo "***********************************************************"
 sleep 3
 
-sudo ./YSFGateway YSFGateway.ini
-#=========================
-
+xterm -geometry 86x13+1277+830 -bg brown -fg green -fa 'roboto' -fs 9x -T YSFGateway -e sudo ./YSFGateway YSFGateway.ini
 
