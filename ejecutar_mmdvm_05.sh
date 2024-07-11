@@ -16,7 +16,6 @@ sed -i "5c MMDVM=ON" /home/orangepi/status.ini
 
 cd /home/orangepi/MMDVMHost
 
-sudo killall MMDVMRADIO
 xterm -geometry 85x13+655+830 -bg blue -fg white -fa 'roboto' -fs 9x -T RADIO -e sudo ./MMDVMRADIO MMDVM.ini
 
 sed -i "6c Exec=xterm -geometry 85x13+655+830 -bg blue -fg white -fa 'roboto' -fs 9x -T RADIO -e sh ejecutar_mmdvm_05.sh" /home/orangepi/Desktop/MMDVM.desktop
