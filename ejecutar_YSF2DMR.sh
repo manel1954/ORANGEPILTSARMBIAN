@@ -11,5 +11,5 @@ cd /home/orangepi/YSF2DMR
 xterm -geometry 86x6+1277+830 -bg black -fg yellow -fa 'roboto' -fs 9x -T YSF2DMR -e ./YSF2DMR YSF2DMR.ini & 
 
 cd /home/orangepi/MMDVMHost
-xterm -geometry 86x6+1277+987 -bg black -fg yellow -fa 'roboto' -fs 9x -TMMDVMFUSION -e ./MMDVMFUSION MMDVMFUSION.ini
+xterm -geometry 86x6+1277+987 -bg black -fg yellow -fa 'roboto' -fs 9x -T MMDVMFUSION -e ./MMDVMFUSION MMDVMFUSION.ini
  
