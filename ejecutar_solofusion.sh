@@ -16,9 +16,9 @@ sed -i "12c SOLOFUSION=ON" /home/orangepi/status.ini
 
 cd /home/orangepi/YSFClients/YSFGateway
 
-mate-terminal --geometry 101x8+1277+797 --title=YSFGateway -x ./YSFGateway YSFGateway.ini & 
+xterm -geometry 101x8+1277+797 -bg black -fg green -fa 'roboto' -fs 9x -T YSFGateway -e ./YSFGateway YSFGateway.ini & 
 
 cd /home/orangepi/MMDVMHost
 echo "{$VERDE}"
-mate-terminal --geometry 101x9+1277+987 --title=MMDVMFUSION -x sudo ./MMDVMFUSION MMDVMFUSION.ini
+xterm -geometry 101x9+1277+987 -bg black -fg green -fa 'roboto' -fs 9x -T MMDVMFUSION -e sudo ./MMDVMFUSION MMDVMFUSION.ini
 
