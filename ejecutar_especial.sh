@@ -14,14 +14,8 @@ sed -i "10c Name[es_ES]=Cerrar  ESPECIAL" /home/orangepi/Desktop/Abrir_ESPECIAL.
 sed -i "10c MMDVMESPECIAL=ON" /home/orangepi/status.ini
 
 cd /home/orangepi/MMDVMHost
-echo "\33[1;32m"
-clear
-echo "***********************************************"
-echo "*                 ESPECIAL                    * "
-echo "***********************************************"
-echo "${AMARILLO}"
-sudo ./MMDVMESPECIAL MMDVMESPECIAL.ini
-clear
+xterm -geometry 85x13+655+830 -bg black -fg yellow -fa 'roboto' -fs 9x -T ESPECIAL -e sudo ./MMDVMESPECIAL MMDVMESPECIAL.ini
+
 sudo killall MMDVMESPECIAL
 cd /home/orangepi/ORANGEPI
 sed -i "10c MMDVMESPECIAL=OFF" /home/orangepi/status.ini

@@ -16,14 +16,8 @@ sed -i "5c MMDVM=ON" /home/orangepi/status.ini
 
 cd /home/orangepi/MMDVMHost
 
-clear
-echo "{$CIAN}"
-echo "***********************************************"
-echo "*                 RADIO                       * "
-echo "***********************************************"
-#sleep 2
 sudo killall MMDVMRADIO
-sudo ./MMDVMRADIO MMDVM.ini
+xterm -geometry 85x13+655+830 -bg black -fg white -fa 'roboto' -fs 9x -T RADIO -e sudo ./MMDVMRADIO MMDVM.ini
 
 sed -i "6c Exec=xterm -geometry 85x13+655+830 -bg black -fg white -fa 'roboto' -fs 9x -T RADIO -e sh ejecutar_mmdvm_05.sh" /home/orangepi/Desktop/MMDVM.desktop
 sed -i "7c Icon=/home/orangepi/ORANGEPI/MMDVM.png" /home/orangepi/Desktop/MMDVM.desktop
