@@ -7,3 +7,4 @@ sed -i "14c YSF2DMR=OFF" /home/orangepi/status.ini
 
 sudo killall MMDVMFUSION
 sudo killall YSF2DMR
+ 
