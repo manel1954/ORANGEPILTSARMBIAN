@@ -20,5 +20,5 @@ xterm -geometry 86x6+1277+830 -bg black -fg green -fa 'roboto' -fs 9x -T YSFGate
 
 cd /home/orangepi/MMDVMHost
 echo "{$VERDE}"
-xterm -geometry 101x6+1277+987 -bg black -fg green -fa 'roboto' -fs 9x -T MMDVMFUSION -e sudo ./MMDVMFUSION MMDVMFUSION.ini
+xterm -geometry 86x6+1277+987 -bg black -fg green -fa 'roboto' -fs 9x -T MMDVMFUSION -e sudo ./MMDVMFUSION MMDVMFUSION.ini
 
