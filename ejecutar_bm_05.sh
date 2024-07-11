@@ -6,14 +6,7 @@ sed -i "10c Name[es_ES]=Cerrar BM" /home/orangepi/Desktop/BM.desktop
 sed -i "7c MMDVMBM=ON" /home/orangepi/status.ini
 
 cd /home/orangepi/MMDVMHost
-echo "\33[1;32m"
-clear
-echo "***********************************************"
-echo "*                 BRANDMEISTER                * "
-echo "***********************************************"
-echo "\33[38;5;138m"
-sudo ./MMDVMBM MMDVMBM.ini
-clear
+xterm -geometry 85x13+655+830 -bg brown -fg white -fa 'roboto' -fs 9x -T BRANDMEISTER -e sudo ./MMDVMBM MMDVMBM.ini
 sudo killall MMDVMBM
 cd /home/orangepi/ORANGEPI
 sed -i "7c MMDVMBM=OFF" /home/orangepi/status.ini
