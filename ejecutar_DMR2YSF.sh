@@ -5,10 +5,10 @@ sed -i "7c Icon=/home/orangepi/ORANGEPI/DMR2YSF_ON.png" /home/orangepi/Desktop/A
 sed -i "10c Name[es_ES]=Cerrar DMR2YSF" /home/orangepi/Desktop/Abrir_DMR2YSF.desktop
 
 cd /home/orangepi/DMR2YSF
-mate-terminal --geometry 101x8+1277+665 --title=DMR2YSF -x ./DMR2YSF DMR2YSF.ini &
+xterm -geometry 86x6+1277+673 -bg black -fg yellow -fa 'roboto' -fs 9x -T DMR2YSF -e./DMR2YSF DMR2YSF.ini &
 
 cd /home/orangepi/MMDVMHost
-mate-terminal --geometry 101x8+1277+797 --title=MMDVMDMR2YSF -x sudo ./MMDVMDMR2YSF MMDVMDMR2YSF.ini &
+xterm -geometry 86x6+1277+830 -bg black -fg yellow -fa 'roboto' -fs 9x -T MMDVMDMR2YSF -e sudo ./MMDVMDMR2YSF MMDVMDMR2YSF.ini &
 
 cd /home/orangepi/YSFClients/YSFGateway
-mate-terminal --geometry 101x9+1277+987 --title=YSFGATEWAY -x ./YSFGateway YSFGateway.ini
+xterm -geometry 86x6+1277+987 -bg black -fg yellow -fa 'roboto' -fs 9x -T YSFGATEWAY -e ./YSFGateway YSFGateway.ini
