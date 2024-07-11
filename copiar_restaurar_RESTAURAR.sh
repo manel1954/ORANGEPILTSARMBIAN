@@ -53,6 +53,8 @@
             cp station.cfg /home/orangepi/radiosonde_auto_rx/auto_rx/  # modificado 01-06-2024
             cp status.ini /home/orangepi/  # modificado 01-06-2024
 
+            cp settings.json /var/lib/openwebrx/  # modificado 11-07-2024
+            
             sudo cp ircddbgateway /usr/local/etc/opendv/
             sudo cp dstarrepeater /usr/local/etc/opendv/
 

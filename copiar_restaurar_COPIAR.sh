@@ -70,6 +70,9 @@
             cd /home/orangepi/radiosonde_auto_rx/auto_rx/ # modificado 01-06-2024
             cp station.cfg /home/orangepi/COPIA_SEGURIDAD # modificado 01-06-2024
 
+            cd /var/lib/openwebrx/ # modificado 11-07-2024
+            cp settings.json /home/orangepi/Downloads # modificado 11-07-2024
+
             cd /home/orangepi/COPIA_SEGURIDAD
             sudo chmod 777 -R /home/orangepi/COPIA_SEGURIDAD
             
