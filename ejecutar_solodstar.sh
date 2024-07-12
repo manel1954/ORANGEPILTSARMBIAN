@@ -19,7 +19,7 @@ sudo ./MMDVMDSTAR MMDVMDSTAR.ini &
 cd /home/orangepi/ORANGEPI
 sh ejecutar_d-star_05.sh
 
-sed -i "6c Exec=xterm -geometry 86x13+1277+830 -bg black -fg green -fa 'roboto' -fs 9x -T SOLODSTAR -e sh ejecutar_solodstar.sh" /home/orangepi/Desktop/AbrirsoloDstar.desktop
+sed -i "6c Exec=xterm -geometry 86x16+1277+803 -bg black -fg green -fa 'roboto' -fs 9x -T SOLODSTAR -e sh ejecutar_solodstar.sh" /home/orangepi/Desktop/AbrirsoloDstar.desktop
 sed -i "7c Icon=/home/orangepi/ORANGEPI/SOLO_D-STAR.png" /home/orangepi/Desktop/AbrirsoloDstar.desktop
 sed -i "11c Name[es_ES]=Abrir solo D-STAR" /home/orangepi/Desktop/AbrirsoloDstar.desktop
 sed -i "13c SOLODSTAR=OFF" /home/orangepi/status.ini
