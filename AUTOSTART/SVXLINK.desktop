@@ -4,7 +4,7 @@ Type=Application
 Name=Abrir Radio
 Name[es_ES]=Abrir Radio
 Comment=
-Exec=sh -c "cd /home/orangepi/ORANGEPI/;sleep 10;mate-terminal --geometry 68x29+22+50 --title=SVXLINK -x sh ejecutar_svxlink_05.sh"
+Exec=sh -c "cd /home/orangepi/ORANGEPI/;sleep 10;sh ejecutar_svxlink_05.sh"
 Icon=/home/orangepi/ORANGEPI/ECHOLINK.png
 Terminal=false
 StartupNotify=false
