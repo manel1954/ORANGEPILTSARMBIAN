@@ -11,3 +11,4 @@
                         sudo chmod 777 -R /home/orangepi/ORANGEPI                    
                         sudo chmod 777 -R /home/orangepi/qt
                         sudo chmod 777 -R /home/orangepi/AUTOSTART
+                        
